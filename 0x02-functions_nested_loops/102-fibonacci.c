@@ -10,12 +10,12 @@
 int main(void)
 {
 	int c;
-	unsigned long fl = 0, f2 = 1, s;
+	unsigned long f1 = 0, f2 = 1, s;
 
 	for (c = 0; c < 50; c++)
 	{
 		s = f1 + f2;
-		printf("%lu", sum);
+		printf("%lu", s);
 
 		f1 = f2;
 		f2 = s;
