@@ -3,18 +3,18 @@
 /**
  * print_listint - function
  * @h: parameter
- * Return: c
+ * Return: num
  */
 
 size_t print_listint(const listint_t *h)
 {
-	size_t c = 0;
+	size_t num = 0;
 
 	while (h)
 	{
 		printf("%d\n", h->n);
-		c++;
+		num++;
 		h = h->next;
 	}
-	return (c);
+	return (num);
 }
